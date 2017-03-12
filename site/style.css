@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	background: url("http://more-sky.com/data/out/6/IMG_115497.jpg");
+}
+h1 {
+	color:green;
+	text-align: center;
+
+}
+#bg {
+
+}
+#box {https://images-na.ssl-images-amazon.com/images/I/81ni71zIxIL._SL1406_.jpg
+	background-color: grey;
+	padding: 10px;
+	border:  10px solid black;
+	margin: 10px;
+	width: 500px;
+	height: 180px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	overflow: auto;
+
+	
+
+
+}
+.blue {
+	color:blue;
+	font-size:12px;
+	font-family:Courier;
+}
+#identified {
+	color:red;
+	background-color:blue;
+	font-weight: bold;
+}
+div, .blue {
+	color:blue;
+}
+header li {
+	list-style: none;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+	background-color:yellow;
+	border: 1px solid blue;
+color:green;
+display:block;
+width:200px;
+text-align:center;
+margin:1px;
+cursor:pointer;
+}
+a:hover, a:active {
+	background-color:red;
+	color:purple;
+}
+header li:nth-child(2) {
+	font-size:24px;
+}
