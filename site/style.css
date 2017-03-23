@@ -8,6 +8,36 @@ body {
 	margin: 0;
 	padding: 0;
 }
+/************* Desktop devices only *********/
+@media (min-width: 992px) {
+.col-lg-1, {
+}
+
+.col-lg-1 {
+	width: 33.33%;
+}
+}
+
+/************* Tablet devices only *********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-1, .col-md-2, {
+}
+
+.col-md-1 {
+	width: 50%;
+}
+.col-md-2 {
+	width: 50%;
+}
+/************* Mobile devices only *********/
+@media (max-width: 767px) {
+.col-xs-1,
+
+.col-xs-1 {
+	width: 100%;
+}
+}
 
 #box1 {
 	color: white;
@@ -17,6 +47,7 @@ body {
 	height: 120px;
 	margin: 40px;
 	padding: 10px;
+	clear: both;
 }
 
 #content1 {
@@ -38,6 +69,7 @@ body {
 	width: 300px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
+	clear: right;
 }
 
 #content2 {
@@ -58,7 +90,7 @@ body {
 	width: 300px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
-
+	clear: center;
 }
 
 #content3 {
