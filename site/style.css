@@ -10,7 +10,7 @@ body {
 }
 /************* Desktop devices only *********/
 @media (min-width: 992px) {
-	.col-lg-1, float: left; {
+	.col-lg-1, {
 	}
 
 	.col-lg-1 {
