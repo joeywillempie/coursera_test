@@ -48,6 +48,7 @@ body {
 	height: 120px;
 	margin: 40px;
 	padding: 10px;
+	float: left;
 }
 
 #content1 {
