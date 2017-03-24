@@ -45,7 +45,6 @@ body {
 	color: white;
 	background-color: black;
 	border:  1px solid black;
-	width: 300px;
 	height: 120px;
 	margin: 40px;
 	padding: 10px;
@@ -68,7 +67,6 @@ body {
 	color:red;
 	border: 1px solid black;
     margin: 40px;
-	width: 300px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
 	clear: right;
@@ -89,7 +87,6 @@ body {
 	background-color: red;
 	border:  1px solid black;
 	margin: 40px;
-	width: 300px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
 	clear: center;
