@@ -52,13 +52,14 @@ body {
 }
 
 #content1 {
+	top: -10px;
 	color:blue;
 	background-color: white;
 	width: 58px;
 	height: 25px;
     position:relative;
-    bottom: 100px; 
-    left: 230px;  
+ 	float: right;
+	right: -10px:
     text-align: center;	
 }
 
