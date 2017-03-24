@@ -48,7 +48,6 @@ body {
 	height: 120px;
 	margin: 40px;
 	padding: 10px;
-	clear: both;
 }
 
 #content1 {
@@ -70,7 +69,6 @@ body {
     	margin: 40px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
-	clear: right;
 }
 
 #content2 {
@@ -91,7 +89,6 @@ body {
 	margin: 40px;
 	height: 120px;
 	padding: 10px 10px 10px 10px;
-	clear: center;
 }
 
 #content3 {
