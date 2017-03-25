@@ -8,13 +8,85 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+h1 {
+	text-align: center;
+}
+#box1 {
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+	height: 120px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+#content1 {
+	color:blue;
+	background-color: white;
+	border: 1px solid black;
+	width: 58px;
+	height: 25px;
+    position:relative;
+    top: -10px;
+	right: -10px;
+ 	float: right;
+    text-align: center;	
+}
+
+#box2 {
+	color:red;
+	background-color: lightblue;
+	border: 1px solid black;
+	height: 120px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+#content2 {
+	color: black;
+	background-color: red;
+	border: 1px solid black;
+	width: 58px;
+	height: 25px;
+    position: relative;
+  	top: -10px;
+	right: -10px;
+	float: right;
+    text-align: center;
+}
+
+#box3 {
+	background-color: red;
+	border: 1px solid black;
+	height: 120px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+#content3 {
+	background-color: lightblue;
+	border: 1px solid black;
+	width: 58px;
+	height: 25px;
+    position: relative;
+    top: -10px;
+	right: -10px;
+	float: right;
+    text-align: center;
+}
+
 /************* Desktop devices only *********/
 @media (min-width: 992px) {
 	.col-lg-1, {
 	}
 
 	.col-lg-1 {
-		width: 33.33%;
+		width: 30%;
+
 	}
 }
 
@@ -25,10 +97,10 @@ body {
 	}
 
 	.col-md-1 {
-		width: 50%;
+		width: 45%;
 	}
 	.col-md-2 {
-		width: 100;
+		width: 93%;
 	}
 }
 
@@ -36,71 +108,6 @@ body {
 @media (max-width: 767px) {
 	.col-xs-1, 
 	.col-xs-1 {
-		width: 100%;
+		width: 95%;
 	}
-}
-
-/*** rest ***/
-#box1 {
-	color: white;
-	background-color: black;
-	border:  1px solid black;
-	height: 120px;
-	margin: 40px;
-	padding: 10px;
-	float: left;
-}
-
-#content1 {
-	top: -10px;
-	color:blue;
-	background-color: white;
-	width: 58px;
-	height: 25px;
-    position:relative;
- 	float: right;
-	right: -10px;
-    text-align: center;	
-}
-
-#box2 {
-	background-color: lightblue;
-	color:red;
-	border: 1px solid black;
-    	margin: 40px;
-	height: 120px;
-	padding: 10px 10px 10px 10px;
-	float: left;
-}
-
-#content2 {
-	color: black;
-	background-color: red;
-	width: 58px;
-	height: 25px;
-    	position: relative;
-  	top: -10px;
-	right: -10px;
-	float: right;
-    	text-align: center;
-}
-
-#box3 {
-	background-color: red;
-	border:  1px solid black;
-	margin: 40px;
-	height: 120px;
-	padding: 10px 10px 10px 10px;
-	float: left;
-}
-
-#content3 {
-	background-color: lightblue;
-	width: 58px;
-	height: 25px;
-    position: relative;
-    	top: -10px;
-	right: -10px;
-	float: right;
-    text-align: center;
 }
