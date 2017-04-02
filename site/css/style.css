@@ -1,0 +1,39 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+h1 {
+	float:left;
+}
+
+.navbar-toggle {
+	    margin-top: 20px;
+}
+
+.navbar-nav>li>a {
+	display:inline-block;
+	position: center;
+	background-color: blue;
+	border: 1px solid black;
+	width: 100vw; 
+	text-align: center; 
+	height: 30px;
+	padding:0px;
+}
+
+#box1 {
+	background-color: blue;
+	border: 1px solid black;
+	height: 1000px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
