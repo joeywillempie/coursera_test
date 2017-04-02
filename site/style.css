@@ -1,113 +1,39 @@
-
-* {
-	box-sizing: border-box;
-}
-
 body {
-	background-color: grey;
-	margin: 0;
-	padding: 0;
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
 }
 
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
 h1 {
-	text-align: center;
+	float:left;
 }
+
+.navbar-toggle {
+	    margin-top: 20px;
+}
+
+.navbar-nav>li>a {
+	display:inline-block;
+	position: center;
+	background-color: blue;
+	border: 1px solid black;
+	width: 100vw; 
+	text-align: center; 
+	height: 30px;
+	padding:0px;
+}
+
 #box1 {
-	color: white;
-	background-color: black;
+	background-color: blue;
 	border: 1px solid black;
-	height: 120px;
+	height: 1000px;
 	padding: 10px;
 	margin: 10px;
 	float: left;
-}
-
-#content1 {
-	color:blue;
-	background-color: white;
-	border: 1px solid black;
-	width: 58px;
-	height: 25px;
-    	position:relative;
-    	top: -10px;
-	right: -10px;
- 	float: right;
-   	text-align: center;	
-}
-
-#box2 {
-	color:red;
-	background-color: lightblue;
-	border: 1px solid black;
-	height: 120px;
-	padding: 10px;
-	margin: 10px;
-	float: left;
-}
-
-#content2 {
-	color: black;
-	background-color: red;
-	border: 1px solid black;
-	width: 58px;
-	height: 25px;
-    	position: relative;
-  	top: -10px;
-	right: -10px;
-	float: right;
-    	text-align: center;
-}
-
-#box3 {
-	background-color: red;
-	border: 1px solid black;
-	height: 120px;
-	padding: 10px;
-	margin: 10px;
-	float: left;
-}
-
-#content3 {
-	background-color: lightblue;
-	border: 1px solid black;
-	width: 58px;
-	height: 25px;
-    	position: relative;
-    	top: -10px;
-	right: -10px;
-	float: right;
-    	text-align: center;
-}
-
-/************* Desktop devices only *********/
-@media (min-width: 992px) {
-	.col-lg-1, {
-	}
-
-	.col-lg-1 {
-		width: 30%;
-
-	}
-}
-
-/************* Tablet devices only *********/
-@media (min-width: 768px) and (max-width: 991px)
-{
-	.col-md-1, .col-md-2, {
-	}
-
-	.col-md-1 {
-		width: 45%;
-	}
-	.col-md-2 {
-		width: 93%;
-	}
-}
-
-/************* Mobile devices only *********/
-@media (max-width: 767px) {
-	.col-xs-1, 
-	.col-xs-1 {
-		width: 95%;
-	}
-}
