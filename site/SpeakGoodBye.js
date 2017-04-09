@@ -1,5 +1,5 @@
 (function () {
-	var speakWord = "Good Bye";
+	var speakWord = "GoodBye";
 	var byeSpeaker = {};
 byeSpeaker.speak = function(byeSpeaker) {
   console.log(speakWord + byeSpeaker);
