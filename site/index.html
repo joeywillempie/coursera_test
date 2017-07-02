@@ -2,113 +2,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Assesment 1</title>
+<title>Radiohead</title>
 <style type="text/css">
-fieldset {
-  background-color: lightyellow;
-  border: 10px solid yellow;
-  margin-bottom: 10px;
-  width: 720px;  
-}
-label {
-  width: 180px;
-  display: inline-block;
-  text-align: right-align top-align; 
-  hover: font-size: 40px;
-  text-align: right;
-}
+ul>
+  <li><a href="">Contact</a></li>
+  <li><a href="">Music</a></li>
+  <li><a href="">Members</a></li>
+  <li><a href="">Touring Schedule</a></li>
+  <li><a href="">Home</a></li>
+</ul>
 
-label:hover { font-size:40px }
-.ContactMethod {
-  width: auto;
-}
+<img id="picture" src="voorkant.jpg">
 
-.gender {
-  width: auto;
-}
+<!-- Start Social Media -->
+<div id="bar2">
+<a href="https://nl-nl.facebook.com/radiohead/" target="_blank">
+<img class="social" src="facebook.png" width="35px" height="22px"></a>
+<a href="https://snapchat.maximumpop.co.uk/username/radiohead/" target="_blank">
+<img class="social" src="snapchat.png" width="35px" height="22px"></a>
+<a href="https://nl.pinterest.com/explore/radiohead/" target="_blank">
+<img class="social" src="pinterest.png" width="35px" height="22px"></a>
+<a href="https://soundcloud.com/radiohead" target="_blank">
+<img class="social" src="soundcloud.png" width="35px" height="22px"></a>
+<a href="https://twitter.com/radiohead" target="_blank">
+<img class="social" src="twitter.png" width="35px" height="22px"></a>
+<a href="https://www.youtube.com/user/radiohead" target="_blank">
+<img class="social" src="youtube.png" width="35px" height="22px"></a>
+</div>
+<!-- Einde Social Media -->
 
-.length {
-    width: 45px;
-    height: 20px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    background: red;
-    color: white;
-}
+<div id="bar3"><span class="barheader">Hightlights</span></div>
 
-.wealth {
-    width: 45px;
-    height: 20px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    background: purple;
-    color: white;
-}
-textarea {
-  width: 360px;
-  height: 50px;
-}
+<!-- Start Higlights -->
+<div class="img1">
+<img src="maxresdefault.jpg" width="250px" height="125px">
+<div class="caption"><span class="header">Radiohead op Best Kept Secret</span> Best Kept Secret heeft Radiohead al vanaf de eerste editie in het vizier, maar aanstaande zondag is het dan eindelijk zover. Radiohead sluit Best Kept Secret af. Een bijzonder optreden waar veel fesivalgangers naar uitkijken.</div>
+</div>
 
-img {
-  width: 150px;
-}
+<div class="img2">
+<img src="okcomputer.jpg" width="250px" height="125px">
+<div class="caption"><span class="header">Jubileum Ok Computer</span> Het iconische Radiohead-album ‘OK Computer’ bestaat twintig jaar en dat moet gevierd worden! Ter ere van het jubileum brengt de Britse band het album opnieuw uit, inclusief drie nooit eerder uitgebrachte tracks!</div>
+</div>
 
+<div class="img3">
+<img src="rollingstone.jpg" width="250px" height="125px">
+<div class="caption"><span class="header">Interview Rolling Stone</span> Thom Yorke and the band look back at their 1997 masterpiece in honor of its 20th anniversary Hear the story of how Thom Yorke and his Radiohead band- mates came to create their 1997 classic ‘OK Computer.’</div>
+</div>
+<!-- Einde Highlights -->
 
-</style>
-</head>
-<body>
+<div id="bar4"><span class="barheader">News</span></div>
 
-<h1>Please Enter Your Data For Our Dating Website!</h1>
-<fieldset>
-<legend>Your Face</legend>
-<form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
-<label for="avatar">Your Image</label>
-<input type="file" id="avatar" name="avatar" required><br>
-<span>Image Preview</span><img id="preview">
-</fieldset>
-<fieldset>
-<legend>Your General Details</legend>
-<label for="name">Name</label>
-<input type="text" id="Name" name="name" placeholder="Your Full Name" required><br>
-<span class="gender">
-<label for="gender">Gender</label>
-<input type="radio" id="gender" name="gender" value="Male" required>Male
-<input type="radio" id="gender" name="gender" value="Female" required>Female</span><br>
-<label for="age">Age</label>
-<input type="number" id="age" name="age" required></br>
-<label for="birthdate">Date Of Birth</label>
-<input type="date" id="birthdate" name="birthdate"><br>
-<label for="color">Favorite Color</label>
-<input type="color" id="color" name="color"><br>
-<label for="countries">Which Country</label>
-<select name="countries" id="countries" name="countries">
-	<option value="ns">No selection</option>
-	<option value="ned">Netherlands</option>
-	<option value="Ger">Germany</option>
-	<option value="Bel">Belgium</option>
-	<option value="Fra">France</option>
-	<option value="USf">United States</option>
-</select></fieldset>
-<fieldset>
-<legend>Your Indicators</legend>
-<label for="height">Height</label><span class="length">Small</span>
-<input type="range" id="height" name="height" min="0" max="100" value="50"><span class="length">Tall</span><br>
-<label for="salary">Salary</label><span class="wealth">Poor</span>
-<input type="range" id="salary" name="salary" min="0" max="100" value="50"><span class="wealth">Rich</span>
-<br></fieldset>
-<fieldset>
-<legend>Your Contact Information</legend>
-<label for="Email">Email</label>
-<input type="email" id="email" name="email" required><br>
-<label for="mobile">Mobile</label>
-<input type="tel" id="name" name="id"><br>
-<label for="adres">Adress</label><textarea id="adress" name="adress"></textarea><br>
-<span class="ContactMethod">
-<label for="ContactMethod">Method To Contact You</label>
-<input type="Checkbox" id="ContactMethod" name="ContactMethod" value="Email">Email
-<input type="Checkbox" id="ContactMethod" name="ContactMethod" value="Whatsapp">Whatsapp
-<input type="Checkbox" id="ContactMethod" name="ContactMethod" value="In-app Chat">In-app Chat</span><br></fieldset>
-<input type="submit" value="submit">
+<!-- Start News -->
+<div class="img1">
+<img src="A_Moon_Shaped_Pool.jpg" width="250px" height="125px">
+<div class="caption"><span class="header">Moon Shaped Pool</span>Radiohead heeft na 5 jaar weer een nieuw album uitgebracht.</div></div>
+
+<div class="img2">
+<img src="radiohead tickets.png" width="250px" height="125px">
+<div class="caption"><span class="header">Koop Nu Tickets</span>Radiohead staat op 20 mei in de Heineken Music Hall, koop nu tickets!</div></div>
+
+<div class="img3">
+<img src="Spotify.jpg" width="250px" height="125px">
+<div class="caption"><span class="header">Radiohead op Spotify</span>Radiohead staat na al die jaren eindelijk op Spotify, luister nu snel naar klassieks als Pablo honey en The Bends en nieuwe pareltjes zoals A Moon Shaped Pool.</div></div>
+<!-- Einde News -->
 </body>
